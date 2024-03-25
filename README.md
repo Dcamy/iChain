@@ -55,5 +55,5 @@ iChain is licensed under the MIT License. See the `LICENSE` file for more detail
 
 ---
 
-For more information, visit [iChain Official Website](#).
+For more information, visit [iChain Official Website][(#)](https://t.me/+ex_SYoVLD8AwYTMx)https://t.me/+ex_SYoVLD8AwYTMx.
 
