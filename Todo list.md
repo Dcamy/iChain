@@ -5,10 +5,12 @@
 
 
 1.1. Few simple contracts 
+
 1.2. Direct buy SGC. Roll out the price based on numebr of users and or predetermined number of coins or mix of the two. For example 1:1 But with a reduction based on quanity. Buy $1000 who cares, come and try and buy $100m and youre pay closer to $10 per coin minted anti whale 
+
 1.3. Docs
 
-
+1.4. Smart contract for Launch https://docs.google.com/presentation/d/16v6EtspyUzM0KuqXT4GHS7wfaNTnMD4sfvjacPDJKrs/edit#slide=id.p 
 
 ## 2. Shill
 
