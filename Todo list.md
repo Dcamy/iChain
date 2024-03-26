@@ -10,7 +10,7 @@
 
 1.3. Docs
 
-1.4. Smart contract for Launch https://docs.google.com/presentation/d/16v6EtspyUzM0KuqXT4GHS7wfaNTnMD4sfvjacPDJKrs/edit#slide=id.p 
+1.4. Smart contract for Launch [Google Slides](https://docs.google.com/presentation/d/1HEIqBn-QQ3EYYUrZUampHWyVqsR_bqZ5hTcQn3hhfa8/edit?usp=sharing) 
 
 ## 2. Shill
 
