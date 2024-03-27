@@ -1,45 +1,53 @@
-Directory and File Structure
-Contracts Directory: /contracts
+# Directory and File Structure
+
+## Contracts Directory: /contracts
+
 This directory will contain all Solidity files (.sol) for the diamond, facets, and any additional contracts such as interfaces or libraries.
 
-Diamond.sol: The main Diamond contract that follows the EIP-2535 standard. This contract handles the delegation of calls to various facets.
+**Diamond.sol:** The main Diamond contract that follows the EIP-2535 standard. This contract handles the delegation of calls to various facets.
 
-DiamondCutFacet.sol: A facet for adding, replacing, and removing functions. This is a core component of the Diamond standard that allows for upgrades and modifications.
+**DiamondCutFacet.sol:** A facet for adding, replacing, and removing functions. This is a core component of the Diamond standard that allows for upgrades and modifications.
 
-DiamondLoupeFacet.sol: A facet that implements standard interfaces for inspecting which functions are available on the diamond and which facet they belong to.
+**DiamondLoupeFacet.sol:** A facet that implements standard interfaces for inspecting which functions are available on the diamond and which facet they belong to.
 
-OwnershipFacet.sol: Manages ownership of the diamond, allowing for governance and administrative actions.
+**OwnershipFacet.sol:** Manages ownership of the diamond, allowing for governance and administrative actions.
 
-Facets Directory: /contracts/facets
+## Facets Directory: /contracts/facets
+
 Facets contain the logic of your application. You can organize your facets by functionality.
 
-ProjectManagementFacet.sol
-
+**ProjectManagementFacet.sol**
 Contains logic for project creation, update, and management.
 Functions: createProject, updateProject, getProjectDetails.
-TokenManagementFacet.sol
 
+**TokenManagementFacet.sol**
 Handles the minting of project-specific tokens and NFTs, including administrative functions for recording cash contributions.
 Functions: mintToken, mintNFT, recordCashContribution.
-GovernanceFacet.sol
 
+**GovernanceFacet.sol**
 If integrating a DAO for governance, this facet will manage proposals and voting.
 Functions: createProposal, voteOnProposal, executeProposal.
-Interfaces Directory: /contracts/interfaces
+
+## Interfaces Directory: /contracts/interfaces
+
 Interfaces for any external contracts your facets interact with, such as ERC-20 or ERC-721 standards, DAOs, or other DeFi protocols.
 
-IERC20.sol
-IERC721.sol
-IDAO.sol
-Libraries Directory: /contracts/libraries
+**IERC20.sol**
+**IERC721.sol**
+**IDAO.sol**
+
+## Libraries Directory: /contracts/libraries
+
 Libraries used across multiple facets for reusable code.
 
-LibSafeMath.sol
-LibArrays.sol
-Implementation Details
-Diamond Storage: Utilize the "diamond storage" pattern to safely store and access data across facets. This involves defining a struct in a library that is used by all facets to read and write data.
+**LibSafeMath.sol**
+**LibArrays.sol**
 
-Upgrade and Governance: The DiamondCutFacet allows the diamond owner (which could be a DAO) to add, replace, and remove functionalities. This is critical for the upgradeability and maintenance of the platform. Ensure that governance processes are transparent and secure.
+## Implementation Details
+
+**Diamond Storage:** Utilize the "diamond storage" pattern to safely store and access data across facets. This involves defining a struct in a library that is used by all facets to read and write data.
+
+**Upgrade and Governance:** The DiamondCutFacet allows the diamond owner (which could be a DAO) to add, replace, and remove functionalities. This is critical for the upgradeability and maintenance of the platform. Ensure that governance processes are transparent and secure.
 
 Modular Design: Each facet should be designed to operate independently, with clear interfaces between them. This modular approach simplifies updates and enhances security by isolating functionalities.
 
