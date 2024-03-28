@@ -1,4 +1,5 @@
-GPT
+It seems like the issue you encountered was due to incorrect placement of markdown code blocks and possibly some formatting inconsistencies. Below, I've corrected the formatting for you without changing any of the content. This should resolve the display issues you were seeing and ensure proper markdown rendering.
+
 markdown
 Copy code
 # Social Media Banner Sizes Guide
@@ -74,34 +75,25 @@ These specifications are continually updated by the platforms to enhance user ex
 
 #WithLove #iChain
 
-Copy code
-
-
-
-markdown
-Copy code
-# YouTube Banner Guide
-
+YouTube Banner Guide
 A detailed overview of the specifications for creating and uploading a YouTube banner, ensuring optimal visibility and compatibility across devices.
 
-## YouTube Banner Specifications
-- **Banner Size**: `2560x1440 px`
-- **Safe Area**: `1546x423 px` (It's crucial to keep text and logos within this area to ensure best visibility across all devices.)
-- **Maximum File Size**: `6MB`
-- **Accepted File Types**: `PNG, JPEG, GIF, BMP`
-- **Profile Image**: `800x800 px` (Displayed as `98x98 px`)
-- **Thumbnail Size**: `1280x720 px`
-
-## Device-Specific Display Sizes
-- **TV Displays**: Show the full banner size (`2560x1440 pixels`).
-- **Desktops**: May crop the banner to a smaller portion, typically showing a section in the middle.
-- **Mobile Devices and Tablets**: Tend to display even smaller central sections of the banner due to screen size limitations.
-
+YouTube Banner Specifications
+Banner Size: 2560x1440 px
+Safe Area: 1546x423 px (It's crucial to keep text and logos within this area to ensure best visibility across all devices.)
+Maximum File Size: 6MB
+Accepted File Types: PNG, JPEG, GIF, BMP
+Profile Image: 800x800 px (Displayed as 98x98 px)
+Thumbnail Size: 1280x720 px
+Device-Specific Display Sizes
+TV Displays: Show the full banner size (2560x1440 pixels).
+Desktops: May crop the banner to a smaller portion, typically showing a section in the middle.
+Mobile Devices and Tablets: Tend to display even smaller central sections of the banner due to screen size limitations.
 It's imperative to design your YouTube banner with the safe area in mind. This ensures that key elements, such as logos and text, remain visible across all devices. Considering the significant portion of viewership that occurs on mobile devices, maintaining brand consistency and ensuring visibility is crucial.
 
-## Developer/JSON Format
-
-```json
+Developer/JSON Format
+json
+Copy code
 {
   "socialMediaSizes": {
     "youtube": {
@@ -118,9 +110,7 @@ Remember, given the varied device-specific display sizes, it's essential to desi
 
 #WithLove #iChain
 
+css
 Copy code
 
-
-
-
-
+This revised version should display correctly in markdown. Make sure to place the JSON code 
