@@ -7,6 +7,7 @@ iChain OS Install = Earn. An intelligent blockchain utilizing Proof of Contribut
 ## OpenAI - 
 
 MarkDownAI https://chat.openai.com/g/g-sWdGNLVXl-markdownai 
+Ethan iChain Code Ninja https://chat.openai.com/g/g-xwHzCfkCW-ethan-ichain-code-ninja
 
 # Link to Pitch Deck
 https://docs.google.com/presentation/d/1VaVOsgO0YNDs1BJO4QSXZMNvdkqoMjKps1PVfSgdr1E/edit?usp=sharing
