@@ -1,0 +1,2 @@
+npm install --save-dev @testing-library/react
+npm install --save-dev @testing-library/react-hooks react-test-renderer
