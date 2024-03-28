@@ -4,11 +4,16 @@
 # iChain
 iChain OS Install = Earn. An intelligent blockchain utilizing Proof of Contribution(s) to reward users for their engagement and support. Seamlessly integrating AI and blockchain technologies, iChain fosters a decentralized, transparent ecosystem where every action contributes to the network's growth and value. Join us in shaping a more equitable digital future.
 
+## OpenAI - 
+
+MarkDownAI https://chat.openai.com/g/g-sWdGNLVXl-markdownai 
+
 # Link to Pitch Deck
 https://docs.google.com/presentation/d/1VaVOsgO0YNDs1BJO4QSXZMNvdkqoMjKps1PVfSgdr1E/edit?usp=sharing
 
 # Telegram Chat
 https://t.me/+ex_SYoVLD8AwYTMx
+
 # iChain Monorepo
 
 Welcome to the iChain Monorepo, the all-encompassing repository housing the codebase for the iChain project. iChain is a pioneering blockchain and AI fusion platform designed to revolutionize how we think about digital currency, smart contracts, and decentralized applications.
