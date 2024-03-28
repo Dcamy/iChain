@@ -1,6 +1,6 @@
 Absolutely, I can put that together for you. Here's how the markdown file would look:
 
-```markdown
+
 # High-Level Plan for MVP Development
 
 ## MVP Scope
@@ -48,7 +48,6 @@ Implement testing and thorough documentation:
 
 # Directory Structure and Essential Files
 
-```
 /project-root
   /public          # Static files like index.html, favicon, etc.
   /src
