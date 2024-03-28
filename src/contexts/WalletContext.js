@@ -9,7 +9,8 @@ Copy code
 import React, { createContext, useContext, useState } from 'react';
 
 // Create a context for the wallet
-const WalletContext = createContext(null);
+export const WalletContext = createContext(null);
+
 
 // Provide the context to components
 export const WalletProvider = ({ children }) => {
@@ -48,6 +49,7 @@ export const useWallet = () => {
   return context;
 };
 
+// This line should be at the top of your WalletContext.js file
 
 
 /*

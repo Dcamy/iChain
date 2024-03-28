@@ -18,6 +18,8 @@ Copy code
 
 import { renderHook } from '@testing-library/react-hooks';
 import useProjects from '../hooks/useProjects';
+import '@testing-library/jest-dom';
+
 
 // Mock the global.fetch if you're using fetch directly in the useProjects hook
 global.fetch = jest.fn(() =>

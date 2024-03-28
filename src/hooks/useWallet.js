@@ -9,6 +9,7 @@ Copy code
 */
 import { useContext, useCallback } from 'react';
 import { WalletContext } from '../contexts/WalletContext';
+import { getPreferences, updatePreferences } from '../services/preferencesService';
 
 // Assuming you have a service that handles fetching and storing preferences
 import { getUserPreferences, updateUserPreferences } from '../services/preferencesService';

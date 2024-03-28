@@ -4,6 +4,8 @@ Sure, let's integrate the background image into the App.js with a full update. H
 jsx
 Copy code
 */
+
+
 import React from 'react';
 import styled from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
