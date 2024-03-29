@@ -12,6 +12,9 @@ This project was manually set up with a custom configuration.
 
 In the project directory, you can run:
 
+## 'npm install react-scripts --save'
+
+
 ### `npm start`
 
 Runs the app in the development mode.\

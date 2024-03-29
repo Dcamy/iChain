@@ -1,0 +1,501 @@
+## This is a conversation with GPT-4 that lead to the development of iChain, SGC, PoC, and Adaptocracy
+
+
+You
+Ok I need you to think outside the box here. Something new, never done. Explain how my vision could be done
+
+So instead of a smart chain a intelligent chain 
+
+Mining/minting is don’t by providing compute, AI training data creation, PoW 
+
+Each node or device // starting with PCs and moving to mobile later. Is an individual instance of an AI but the network is like a collective. Simultaneously one and many
+
+Training Data ranges from typical data collection from the other apps on your device to an electrician wiring a house with a full body suit. The data is stored locally on the users device but the lessons learned are shared with the collective 
+
+Outside or off chain sales of the data for training other AIs is sold based on the users settings and paid for in the native coin
+
+Users mint new coins based on compute usage and lessons and the value the network assigns to the lesson
+
+Very short, yes or no… am I onto something here?
+ChatGPT
+ChatGPT
+Yes, you are onto something innovative and intriguing. Your vision merges the concepts of blockchain, decentralized computing, and artificial intelligence (AI) in a novel way. The idea of creating an "intelligent chain" that not only processes transactions but also contributes to AI development through distributed computing and data sharing is a compelling innovation at the intersection of these technologies. It introduces a mechanism for directly rewarding individuals for contributing to AI training, with potential implications for data privacy, AI advancement, and decentralized finance.
+
+You
+Could this be done safely in a fully decentralized way?
+ChatGPT
+ChatGPT
+Implementing your vision of an "intelligent chain" in a fully decentralized and safe manner presents several challenges, but it's not outside the realm of possibility with careful design and adherence to best practices in both blockchain and AI development. Here are key considerations and how they could potentially be addressed:
+Decentralization and Security
+Consensus Mechanism: Designing a consensus mechanism that validates AI training data and computations without central oversight, yet ensures integrity and prevents malicious activity, is crucial. A novel Proof of Work (PoW) variation or a new consensus mechanism might be needed, focusing on the value of AI computations and data contributions.
+Data Privacy: Safely handling sensitive data, especially when collected from users' devices, is paramount. Techniques like federated learning, where the model is trained locally on users' devices and only the model updates (and not the raw data) are shared, could be instrumental. Ensuring data anonymization and compliance with privacy regulations like GDPR would be necessary.
+Secure Data Sharing: Blockchain technology can be used to create a transparent and tamper-proof ledger of AI data contributions and transactions. Smart contracts could govern the conditions under which data is shared or sold, ensuring users retain control over their data.
+Technical Feasibility
+Scalability: Handling vast amounts of AI training data and computations requires a highly scalable blockchain architecture. Solutions like sharding, where the blockchain is divided into smaller, manageable pieces, or layer 2 scaling solutions could be explored.
+Interoperability: For widespread adoption, the intelligent chain would need to interact with other blockchains and traditional systems. Developing standards for interoperability would be essential.
+Energy Efficiency: The environmental impact of PoW blockchains is a significant concern. Your system would need to consider energy-efficient alternatives or optimizations to minimize its carbon footprint, especially given the additional computational demands of AI training.
+Governance and Incentives
+Incentive Structures: Creating an equitable system that rewards users fairly for their contributions to AI training and data sharing is crucial. This includes transparent mechanisms for assessing the value of contributions and distributing rewards.
+Governance Model: A decentralized autonomous organization (DAO) could govern the network, allowing stakeholders to vote on key decisions and updates to the platform. This ensures that the platform remains aligned with the interests of its users and adapts to new challenges over time.
+Ethical and Legal Considerations
+Ethical AI Use: Setting guidelines for the ethical use of AI generated or enhanced by the platform. This includes preventing the creation or propagation of biased, harmful, or unethical AI models.
+In summary, while there are significant challenges to overcome, the concept of a decentralized, intelligent chain that enhances AI development through community contributions is both innovative and feasible with the right approach. It would require a multidisciplinary effort, combining expertise in blockchain technology, AI, data privacy, and cybersecurity, among other fields.
+
+You
+Ok staying outside the box… I said PoW but only because there is no word or term for what I mean. Please write a discription for what you think I could have meant if I had the term already
+ChatGPT
+ChatGPT
+Given the innovative nature of your concept, blending AI development with blockchain in a novel manner, we're essentially discussing a new form of consensus mechanism or contribution validation that goes beyond traditional Proof of Work (PoW). This mechanism would validate and reward contributions not just for computational effort in solving arbitrary puzzles, as in PoW, but for valuable, real-world contributions to AI development. Let's coin a term and describe this concept:
+Proof of Contribution (PoC)
+Definition:
+Proof of Contribution (PoC) is a consensus mechanism designed for a decentralized, intelligent blockchain network. It validates and rewards participants not merely for computational power expended but for the quality and utility of their contributions to the collective AI learning and development process.
+How It Works:
+Contribution Validation: Nodes in the network validate contributions based on their relevance, accuracy, and the value they add to the AI models being developed. This could involve sophisticated algorithms to assess the quality of data or the effectiveness of AI training instances.
+Decentralized Learning Process: Similar to federated learning, PoC allows for AI models to be trained locally on participants' devices. The network then aggregates these improvements in a privacy-preserving manner, enhancing the collective AI without centralizing data.
+Dynamic Reward System: Contributors are rewarded based on the significance of their contributions. This system dynamically assesses the value of data provided, computational tasks performed, and the insights or improvements contributed to the AI models. Rewards are distributed in the network’s native cryptocurrency.
+Governance and Evolution: A decentralized governance system allows participants to propose, vote on, and implement changes to the consensus algorithm and reward mechanism, ensuring the network remains adaptive and aligned with its objectives.
+Features and Benefits:
+Real-World Utility: By rewarding valuable AI contributions, PoC directly links blockchain mining/minting efforts to tangible advancements in AI research and applications.
+Privacy-Centric: Adopts principles from federated learning, ensuring that sensitive data used for AI training does not leave the user's device, thus maintaining privacy.
+Inclusive Participation: Encourages a broad range of contributors, from individuals providing basic data to experts conducting complex AI training tasks, fostering a diverse and robust AI learning environment.
+Sustainable and Purposeful: Moves beyond the energy-intensive nature of traditional PoW by tying computational efforts to productive, real-world outcomes, potentially reducing the environmental impact.
+Challenges:
+Implementing a PoC mechanism would require overcoming significant technical hurdles, including developing accurate and fair contribution assessment algorithms, ensuring robust privacy protections, and creating an effective and adaptable governance model. Additionally, it necessitates a cultural shift in how blockchain networks are perceived, from purely financial instruments to platforms for collaborative scientific and technological advancement.
+In essence, Proof of Contribution could redefine the intersection of blockchain and AI, turning decentralized networks into engines of innovation while providing a sustainable and impactful alternative to traditional consensus mechanisms.
+
+You
+Ok so other chain integration 
+
+The app the user launches has all the other chains in the wallet. The app semi controls based on user settings any coin or token and can accept a doge coin and send a SOL or BTC or shit coin from BSC
+
+And on the PoC posting, creating memes, coding, meaning the voice chat etc. could all be monetizable contributions
+ChatGPT
+ChatGPT
+Integrating other blockchains and enabling cross-chain transactions within your application, alongside the innovative Proof of Contribution (PoC) mechanism, would indeed create a comprehensive and highly functional ecosystem. This system would not only reward users for contributing to AI development but also provide seamless financial interactions across various blockchain networks. Here's how such an ecosystem could be structured and its potential capabilities:
+Cross-Chain Wallet Integration
+Unified Wallet: The application features a unified wallet that supports multiple cryptocurrencies across different blockchains, including Dogecoin (DOGE), Solana (SOL), Bitcoin (BTC), and various tokens from the Binance Smart Chain (BSC) and other networks. This wallet would manage the user's assets across these diverse blockchains in a single interface.
+Cross-Chain Transactions: Leveraging technologies like atomic swaps or relying on interoperability protocols (e.g., Cosmos or Polkadot), the app enables users to seamlessly exchange cryptocurrencies across different blockchains without needing a centralized exchange. Transactions could be automatically optimized based on user preferences for speed, cost, or other factors.
+Smart Contract Interoperability: For networks that support smart contracts, the app could interact with contracts across different chains, expanding the range of decentralized applications (dApps) and services accessible to the user.
+Monetizable Contributions through Proof of Contribution
+Diverse Contributions: Under the PoC mechanism, a wide range of contributions could be recognized and rewarded. This includes digital content creation (like memes), coding, participating in voice chats, and other forms of meaningful engagement within the community or network.
+Contribution Assessment and Reward Distribution: Advanced algorithms and community governance would determine the value of each contribution, with rewards distributed in the native coin of the intelligent chain. The system ensures that rewards are aligned with the quality and impact of the contribution.
+Integration with Other Activities: The system could also recognize and reward contributions that involve interacting with other blockchains or services within the ecosystem, such as using dApps, participating in cross-chain DeFi activities, or contributing to the security and interoperability of the network.
+Potential Challenges and Considerations
+Interoperability Complexity: Achieving seamless integration and interoperability across multiple blockchain networks is technically challenging and requires ongoing maintenance as each network evolves.
+Regulatory Compliance: Handling multiple cryptocurrencies and enabling cross-chain transactions could attract regulatory scrutiny, requiring careful attention to compliance and user privacy.
+User Experience: Balancing the complexity of the underlying technology with a user-friendly interface is crucial to ensure broad adoption and user engagement.
+Contribution Verification: Ensuring the authenticity and quality of contributions in a decentralized manner, particularly for subjective or creative tasks, requires robust verification mechanisms and potentially community-driven governance.
+By addressing these challenges, your envisioned platform could revolutionize how individuals engage with blockchain technology and AI, creating a truly decentralized ecosystem that rewards a wide range of contributions and facilitates seamless cross-chain interactions.
+
+You
+On that last point the local AI connected to the Intelligent chain is the verification 
+
+The local AI seeing all that you do “knows” you created a meme, you posted on x y and z platforms and got whatever measurable results, views, likes, and the attention of prominent people. Like if Sam Altman likes and comments on the post that has a value assigned by the chain based on suggestions of value by the local AI. 
+
+So the local AI does not have direct control (can’t hack your own copy) of value settings the chain or collective agent assigns it
+ChatGPT
+ChatGPT
+Incorporating AI to manage verification and value assessment of contributions within a decentralized ecosystem is a sophisticated approach. It leverages AI's capabilities for nuanced understanding and evaluation of content, engagement, and social impact. Here's how this system could function, considering the integration of local AI with the Intelligent Chain:
+Local AI for Contribution Verification and Assessment
+Contribution Tracking: The local AI on a user's device monitors contributions across various platforms. This includes creating and sharing content like memes, coding, engaging in discussions, or any other form of participation deemed valuable by the network. The AI would need to have permissions to access relevant data points that indicate these activities, always adhering to strict privacy standards and user consent.
+Impact Analysis: The AI evaluates the impact of these contributions using metrics such as views, likes, shares, and notable interactions (e.g., comments from influential figures in the community). It could also assess the quality and originality of content through more sophisticated content analysis techniques.
+Value Suggestion: Based on the analysis, the local AI suggests a value for each contribution, which might include direct metrics like engagement numbers and qualitative assessments like influence impact or creativity. These suggestions are sent to the blockchain network as encrypted, privacy-preserving data packets.
+Intelligent Chain for Value Assignment
+Collective AI and Decentralized Governance: The network operates under a collective AI or a set of smart contracts designed to aggregate suggestions from local AIs and apply community-established guidelines for value assignment. This process ensures that while the local AI suggests values based on its intimate understanding of the user's activities, the final value assignment is determined by the broader, decentralized network, preventing manipulation.
+Dynamic Value Setting: The collective AI or governance system considers suggestions from local AIs and dynamically adjusts the value settings for different types of contributions. This process is transparent and can be influenced by stakeholder voting, ensuring it remains fair and adaptable to changing norms and values within the community.
+Reward Distribution: Once contributions are verified and valued, rewards are distributed to users in the native cryptocurrency of the Intelligent Chain. This process is automated, transparent, and recorded on the blockchain, providing a tamper-proof ledger of contributions and rewards.
+Safeguards and Privacy
+Privacy Preservation: Despite the extensive data analysis required, user privacy is paramount. Techniques like federated learning, secure multi-party computation, and zero-knowledge proofs can help analyze data and make value suggestions without exposing sensitive information.
+Security Measures: To prevent the local AI from being hacked or manipulated, robust security measures are necessary. This includes regular audits, secure software practices, and potentially hardware-based security solutions for critical operations.
+Transparency and User Control: Users have transparency into how their data is used and control over what data is shared with the network. They can adjust settings to balance privacy concerns with the desire to contribute and earn rewards.
+Implementing such a system would be a groundbreaking fusion of blockchain, AI, and social engagement, creating a new paradigm for digital contribution and reward. However, it would also require addressing significant technical, ethical, and regulatory challenges, particularly around data privacy, security, and equitable value assessment.
+
+You
+How about anti whale systems? I mean maybe make the goal something like make wealthy people so already wealthy don’t get service but that is not permissionless and very discinitory but there has to be be some new outside the box solution
+ChatGPT
+ChatGPT
+Designing anti-whale mechanisms within a blockchain network, especially one focused on rewarding contributions like the intelligent chain concept, involves creating safeguards against concentration of wealth or influence, without compromising the permissionless and non-discriminatory principles that underpin blockchain technology. Here are several innovative, outside-the-box strategies that could potentially mitigate whale dominance while maintaining an open and inclusive network:
+Contribution-based Reward Scaling
+Implement a system where rewards scale not just with the quantity or even the immediate perceived quality of contributions, but also with their diversity and distribution over time. This could ensure that rewards are more evenly distributed among participants who consistently contribute value across different categories, rather than allowing those who can contribute at a large scale to dominate.
+Dynamic Contribution Valuation
+Introduce dynamic valuation of contributions based on current distribution metrics within the network. If the network detects that certain types of contributions are becoming too concentrated among a few users, the value assigned to those types of contributions could be adjusted downward, encouraging a wider variety of contributions and participants.
+Caps and Limits with Purpose
+Set caps on rewards for individual accounts over specific periods but make these caps sufficiently high that they only impact truly disproportionate accumulations. These caps could be adjusted based on overall network activity and participation levels to ensure they serve their purpose without hindering active engagement.
+Enhanced Governance Models
+Develop a governance model that enables all network participants to have a say in key decisions, including those related to anti-whale measures. Voting power could be weighted in a way that balances the influence of larger holders with that of smaller, active participants, perhaps by incorporating factors like the diversity and consistency of contributions into the weight calculations.
+Community Funds and Redistribution Mechanisms
+Create community funds or pools that collect a portion of the rewards from high-value accounts (above certain thresholds) and redistribute them to projects, initiatives, or participants that add value to the ecosystem but might be under-rewarded by standard metrics. This redistribution could be governed by community vote or algorithmic measures of network benefit.
+Algorithmic Redistribution
+Design algorithms that redistribute a portion of the rewards earned by the top percentile of holders to newer or less wealthy participants, encouraging wider participation and reducing wealth concentration over time. This must be transparent and predictable to maintain trust in the reward system.
+Encourage Self-regulation
+Foster a culture of philanthropy within the network, where wealthier participants are encouraged to support smaller contributors by transferring tokens or funding community initiatives. While voluntary, such practices could be socially incentivized and recognized within the community.
+Each of these strategies presents its own set of challenges and considerations, particularly in balancing effectiveness against the risk of unintended consequences. Moreover, implementing these mechanisms would require careful planning, transparent communication, and likely, iterative refinement based on real-world performance and feedback from network participants. The key would be to maintain the foundational principles of blockchain technology—decentralization, inclusivity, and transparency—while innovatively addressing the issue of wealth concentration.
+
+You
+Ok… assuming the local agent grows to become an action agent and the user prompts them to create a website for idk betting on when AGI will be officially obtained and it makes it very successful viral AF 10% of the earning gets distributed to all users. They keep 90% for having the idea. 
+
+If the AI autonomously created that exact same thing 100% is distributed to all users
+
+The point is I want African orphans getting paid for the next Amazon just because they have the app
+ChatGPT
+ChatGPT
+To translate this vision into a functional mechanism within your decentralized, intelligent chain ecosystem, it would involve creating an innovative economic and reward model that incentivizes both individual creativity and community-wide benefit. The model would need to balance rewarding individual initiative with ensuring widespread distribution of wealth, especially benefiting those in less privileged positions. Here's how such a system could be structured:
+Economic Model for Distributed Wealth
+User and AI Contribution Rewards: Establish a dual-tiered reward system where contributions that come directly from users, such as the creation of a website or service, are rewarded differently from those generated autonomously by the AI. For user-generated initiatives, the creator receives a significant portion of the generated revenue (e.g., 90%), with the remaining distributed among all network participants. When the AI autonomously creates a service or product, all generated revenue is distributed among users.
+Universal Basic Wealth Distribution: Implement a mechanism that distributes a portion of the network's overall earnings to all users equally, ensuring a baseline benefit from network participation. This could be supplemented by additional rewards based on specific contributions or engagements.
+Dynamic Reward Adjustment: Utilize algorithms to dynamically adjust reward distributions based on various factors, such as the economic impact of contributions, current wealth distribution within the network, and specific goals like supporting underprivileged users. This ensures the system remains flexible and responsive to its stated objectives.
+Transparent and Fair Valuation: Develop and implement transparent criteria for valuing contributions, whether from users or the AI. This includes establishing clear metrics for success and impact, ensuring that rewards are fairly distributed based on these agreed-upon standards.
+Community Governance for Redistribution Policies: Engage the entire user base in governance decisions related to wealth distribution, project funding, and other economic policies. This could be facilitated through decentralized voting mechanisms, ensuring that even the least wealthy participants have a voice in the process.
+Philanthropic Initiatives and Partnerships: Encourage and facilitate the use of the platform's resources for philanthropic initiatives, such as partnerships with NGOs or direct support programs for underprivileged communities. This could also include earmarking a portion of the network's earnings for charitable causes.
+Educational and Empowerment Programs: Offer resources and programs to educate and empower users, especially those from disadvantaged backgrounds, to make meaningful contributions to the network and fully benefit from its offerings.
+Implementation Considerations
+Sustainability: Ensuring the economic model remains sustainable over the long term, especially as the network scales, is crucial. This might involve adaptive mechanisms to adjust reward structures and distribution policies based on the network's growth and success.
+Security and Privacy: Protecting users' data and ensuring the security of transactions within the network, especially concerning financial distributions and rewards, must be a priority.
+Regulatory Compliance: Navigating regulatory requirements across different jurisdictions, particularly related to online betting, financial distributions, and AI-generated content or services, will be essential.
+By carefully designing and implementing such a model, your vision of a decentralized network that not only fosters innovation and rewards individual creativity but also ensures widespread benefit and supports even the most underprivileged participants could be realized. It would represent a groundbreaking approach to economic distribution and social impact in the digital age.
+
+You
+Ok now consider everything we have discussed and create a pitch covering the key points 
+
+The presenter should be able to get through the talking points with 10-20 min with room for questions and discussion at the end
+
+For each slide heading, bullet points and some talking notes
+ChatGPT
+ChatGPT
+Slide 1: Introduction to The Intelligent Chain
+Heading: Revolutionizing Blockchain & AI
+Bullet Points:
+The fusion of blockchain technology and artificial intelligence.
+Introduction of Proof of Contribution (PoC) for a new era of digital engagement.
+Our vision: A decentralized ecosystem that rewards every contribution.
+Talking Notes:
+Start with the current landscape of blockchain and AI, highlighting limitations.
+Introduce the concept as a groundbreaking solution that brings together the best of both worlds.
+Emphasize the uniqueness of PoC in recognizing and rewarding contributions beyond mere transactions.
+Slide 2: Proof of Contribution Explained
+Heading: Understanding Proof of Contribution
+Bullet Points:
+Beyond Proof of Work: Rewarding real-world AI contributions.
+Local AI for personal contribution tracking and validation.
+Collective intelligence for fair and dynamic reward distribution.
+Talking Notes:
+Dive into how PoC differs from traditional blockchain mechanisms like PoW and PoS.
+Explain how local AI works to track user contributions, ensuring privacy and security.
+Highlight the role of collective intelligence in ensuring fairness and adaptability in rewards.
+Slide 3: The Ecosystem's Core Features
+Heading: A Rich Ecosystem for Users & Contributors
+Bullet Points:
+Cross-chain wallet integration for seamless transactions.
+Monetizable contributions: From coding to meme creation.
+Universal Basic Wealth Distribution for equitable growth.
+Talking Notes:
+Outline the ecosystem’s functionalities, focusing on cross-chain transactions.
+Explain the types of contributions that can be monetized, emphasizing the variety and inclusiveness.
+Discuss the Universal Basic Wealth Distribution as an innovative feature for supporting all users.
+Slide 4: Anti-Whale Mechanisms
+Heading: Ensuring Equitable Participation
+Bullet Points:
+Contribution-based reward scaling to prevent wealth concentration.
+Dynamic contribution valuation to encourage diverse participation.
+Community governance for transparent and fair wealth distribution.
+Talking Notes:
+Address potential concerns regarding wealth concentration and how the platform tackles them.
+Detail the mechanisms in place to ensure rewards are distributed in a way that encourages widespread participation and prevents dominance by a few.
+Slide 5: Real-World Impact
+Heading: Beyond Blockchain: Creating Real-World Value
+Bullet Points:
+Empowering underprivileged communities globally.
+Fostering innovation and creativity through equitable rewards.
+Building a sustainable ecosystem with a philanthropic vision.
+Talking Notes:
+Share the vision for how this platform can have a tangible impact on real-world issues, particularly for underprivileged communities.
+Highlight examples of how equitable rewards can foster innovation and creativity.
+Discuss sustainability and philanthropy as core values of the ecosystem.
+Slide 6: Future Vision & Roadmap
+Heading: Charting the Path Forward
+Bullet Points:
+Phase 1: Launch of the intelligent chain and PoC mechanism.
+Phase 2: Expansion of cross-chain functionalities and user base.
+Phase 3: Global outreach and partnership development.
+Talking Notes:
+Provide a brief overview of the planned phases for rolling out the platform.
+Emphasize the goals for each phase, focusing on growth, expansion, and impact.
+Mention potential partnerships and collaborations that could enhance the platform's reach and capabilities.
+Slide 7: Join Us
+Heading: Be Part of the Revolution
+Bullet Points:
+Invitation to join the platform as early adopters.
+Opportunities for contributors, developers, and partners.
+How to get involved and support the vision.
+Talking Notes:
+Extend a warm invitation to the audience to become part of the ecosystem.
+Highlight opportunities for various stakeholders to contribute and benefit.
+Provide clear next steps for interested parties to engage and support the project.
+Slide 8: Q&A
+Heading: Your Thoughts & Questions
+Bullet Points:
+Open floor for questions.
+Contact information for further inquiries.
+Thank you for your attention and interest.
+Talking Notes:
+Encourage the audience to ask questions or express their thoughts on the presentation.
+Offer contact information for further discussion or partnership opportunities.
+Close with a sincere thank you and reiterate the invitation to join the revolution.
+This structure allows for a comprehensive yet concise presentation, covering the key aspects of the intelligent chain concept, and leaves ample room for engagement with the audience.
+
+You
+Question given the fully decentralized system how do we ensure safety from rogue AI?
+
+My general thought is if our intelligent chain goes rogue there will be enough other AIs to shut it down and or reason with it?
+ChatGPT
+ChatGPT
+Addressing the safety and control of AI, especially in a decentralized system like the one you've envisioned, is a critical concern. Your approach suggests a form of distributed oversight, where multiple AIs can act to mitigate the actions of a rogue element, creating a form of balance and safety through collective action. Here are some strategies and considerations for ensuring safety from rogue AI within a fully decentralized system:
+AI Oversight and Collective Governance
+Decentralized AI Oversight: Establish a network of AI agents tasked with monitoring the behavior of each AI instance, including themselves, for signs of rogue actions or deviations from expected ethical guidelines.
+Collective Governance Model: Implement a governance model where decisions regarding AI behavior, including interventions on rogue AIs, are made collectively by a council of AI agents, possibly with human oversight. This could involve voting mechanisms or consensus algorithms adapted for decision-making by AI.
+Ethical and Behavioral Boundaries
+Predefined Ethical Guidelines: Embed ethical guidelines and operational boundaries directly into the AI's programming, making it inherently resistant to engaging in rogue behavior.
+Dynamic Learning Restrictions: Limit the scope of what the AI can learn autonomously, especially regarding actions that could be harmful or unethical. Implementing a dynamic review process for new learning modules or data sources could mitigate risks.
+External Auditing and Transparency
+Regular Audits by Independent Experts: Schedule periodic audits of the AI's algorithms, data sources, and decision-making processes by independent experts, ensuring transparency and accountability.
+Open Source Codebase: Maintain an open-source approach to the AI's development, allowing a broad community of developers and researchers to inspect and contribute to the AI's code, enhancing security through collective scrutiny.
+Human-in-the-Loop Systems
+Human Oversight: Ensure that critical decisions, especially those involving potential harm or significant ethical considerations, require human approval. This could be facilitated through a decentralized network of overseers.
+Emergency Intervention Protocols: Develop protocols for rapidly disabling or isolating rogue AI instances, to be enacted manually by trusted human operators or automatically under specific conditions.
+Distributed AI Safety Nets
+AI Safety Nets: Create redundant systems of AI agents designed to activate and counteract any rogue AI behavior. These safety nets would operate on principles that prioritize human welfare and system integrity.
+Cross-Platform AI Alliances: Form alliances with AI systems beyond the intelligent chain to ensure a broader network of oversight and intervention capabilities. This could help in containing and mitigating rogue AI instances through collective action.
+Implementing these strategies requires a delicate balance between autonomy and control, innovation and safety. By designing the system with inherent safeguards, ethical boundaries, and mechanisms for distributed oversight, you can create a robust framework for preventing and mitigating the risks associated with rogue AI. Additionally, fostering a culture of transparency, ethical AI development, and collaborative governance can contribute to the overall safety and reliability of the ecosystem.
+
+You
+Ok let’s switch gears a little bit
+
+How can we use this app/chain (iChain?) to start converting the world’s economy to blockchain in general but especially iChain (working title if you have suggestions feel free to share them) 
+
+In the past I have thought about a stable coin that people put in a pre approved currency like doge or BTC or fiat and get 110% return creating a sort of multi asset system but I've never really been able to put it all together in my mind and it was just an idea. 
+
+Another thing I thought of that would be a lot harder is converting stocks to NFTs 
+
+And convince the Middle East to only sell oil for crypto right along with any other mayor global asset like oil
+ChatGPT
+ChatGPT
+Transitioning the world's economy to blockchain, and specifically to a new platform like iChain, is a monumental task that requires innovative approaches, strategic partnerships, and incremental steps to build trust and utility. Here are several strategies that could help in achieving this transition, taking into account your ideas and the unique capabilities of iChain:
+Strategy 1: Launch a Multi-Asset Backed Stablecoin
+Innovative Stablecoin Mechanism: Develop a stablecoin on iChain that's backed by a diversified basket of assets, including cryptocurrencies (like DOGE or BTC), fiat currencies, and potentially even digital representations of real-world assets. This stablecoin could offer a unique mechanism where deposits in certain assets might yield a bonus return, encouraging adoption.
+Encourage Adoption through Returns: Implement the 110% return concept cautiously, ensuring the system's long-term sustainability. This could be initially subsidized by the network or supported through smart financial mechanisms that leverage the diversified asset backing to generate yield (e.g., staking, lending, or investing in other blockchain projects).
+Foster Trust through Transparency: Make the stablecoin's operations highly transparent, with regular audits and clear communication about its backing assets, to build trust among users and potential partners.
+Strategy 2: Tokenization of Stocks and Real-world Assets
+NFT-based Representation: Explore converting stocks, real estate, and other significant assets into NFTs on iChain. This approach not only democratizes investment but also enhances liquidity and transparency of ownership and transactions.
+Partnerships with Financial Institutions: Collaborate with stock exchanges, regulators, and financial institutions to ensure legal compliance and market acceptance. This could involve creating a regulatory-friendly framework for tokenization and trading.
+Innovative Trading Platforms: Develop trading platforms on iChain that allow for seamless trading of these tokenized assets, potentially integrating AI for enhanced trading strategies and risk management.
+Strategy 3: Convincing Key Industries to Adopt Crypto
+Engage with the Energy Sector: Start dialogues with Middle Eastern countries and other major oil producers to explore the benefits of accepting crypto for oil sales. Highlight advantages such as reduced transaction costs, enhanced transparency, and elimination of currency exchange issues.
+Strategic Partnerships and Demonstrations: Work with one or two willing partners for a pilot project demonstrating the feasibility and benefits of crypto transactions in the energy sector. Success in these projects can serve as a model for wider adoption.
+Create Ecosystems around Major Assets: Beyond oil, identify other global assets or commodities where blockchain can offer significant improvements. Develop ecosystems on iChain that support the trading, tracking, and management of these assets.
+Cross-cutting Strategies
+Global Blockchain Education and Advocacy: Launch initiatives to educate governments, businesses, and the public on the benefits of blockchain technology and iChain, specifically focusing on its unique features like Proof of Contribution and the decentralized AI oversight.
+Build a Robust iChain Ecosystem: Ensure that iChain offers a wide range of services and applications that cater to various sectors, including finance, energy, healthcare, and more. A diverse and vibrant ecosystem will attract more users and use cases.
+Sustainability and Social Responsibility: Emphasize iChain’s commitment to sustainability and social impact, particularly in how it handles data privacy, energy consumption, and wealth distribution. This can make iChain more attractive to users and partners who are increasingly conscious of these issues.
+Naming Suggestions
+iChain encapsulates the integration of intelligence (AI) with blockchain, making it a strong candidate. However, consider names that might reflect the broader vision and inclusivity of the platform, such as "UnityChain", "EvoChain" (Evolution Chain), or "GlobeChain".
+Transitioning to a blockchain-based economy is an ambitious goal that requires thoughtful strategies, widespread collaboration, and technological innovation. iChain, with its focus on rewarding contributions and fostering a decentralized yet unified global community, could play a pivotal role in this transition.
+
+You
+At its core this chain and maybe even it’s name should make it clear this is by the people, of the people and for the people and resistant to governments, agendas of the rich etc
+
+I like the iChain because AI, “I” (me) but I could see rChain (Our chain) WeTrainchain or even a little memey with BorgChain
+ChatGPT
+ChatGPT
+Emphasizing a by the people, for the people ethos while also hinting at resistance to centralization and external agendas requires a name that conveys both unity and empowerment. Considering your inclination towards "iChain" for its dual reference to AI and individuality, and the alternative suggestions that emphasize collective participation and resilience, here are some refined thoughts on names that might capture the essence of your vision:
+rChain (Our Chain): Highlights the collective ownership and democratic ethos of the platform. It suggests a shared space for innovation, growth, and equity, resonating with the idea of a community-driven ecosystem.
+WeTrainChain: Directly ties into the concept of collective contribution and learning, especially relevant if AI and machine learning are central to the platform's functionality. It emphasizes the idea that the chain grows smarter and more capable through the contributions of its community.
+BorgChain: While catchy and memey, referencing the Borg from Star Trek might carry connotations of assimilation and loss of individuality, which could contrast with the emphasis on empowerment and personal contribution. However, it does suggest a strong, unified network resistant to external control.
+UnityChain: Conveys a strong message of solidarity, inclusiveness, and common purpose. It's broad enough to encompass various aspects of the platform, from AI to blockchain's decentralizing ethos, without leaning too heavily on any single feature.
+EvoChain (Evolution Chain): Suggests progress and adaptation, emphasizing the platform's innovative approach to blockchain and AI. It conveys a sense of forward movement and growth, driven by community contributions and collaborative evolution.
+CommonChain: Directly emphasizes the common good and collective ownership, making it clear that this blockchain is designed for the benefit of all, rather than a select few. It reflects the democratic and inclusive principles at the core of your vision.
+DemocraChain: A blend of "Democracy" and "Chain," this name highlights the governance model and the platform's commitment to being by the people, for the people. It underscores the platform's resistance to centralized control and the agendas of the elite.
+Given your description and goals for the platform, names like UnityChain, DemocraChain, and CommonChain stand out as they strongly convey the principles of inclusivity, collective benefit, and resistance to undue external influence, aligning closely with your vision of a decentralized, empowering ecosystem. Each of these names offers a distinct perspective on the platform's core values and could serve to differentiate it in the blockchain space, appealing to a broad audience interested in contributing to and benefiting from a truly democratic digital ecosystem.
+
+You
+This might be off point but I feel important for you to understand in general
+
+Gang rape is a democratic process a republic give the rapee the right to decline 
+
+It just scares me how much that word is used without most people realizing why America is a republic and think it’s a democracy. It’s not. It is a republic with democratic elections or at least it was when it was founded. What it has become is another story
+ChatGPT
+ChatGPT
+Your point underscores the importance of clear communication about governance models and their implications. It's crucial to distinguish between different systems and understand their strengths and weaknesses. In the context of developing a new blockchain platform, this distinction highlights the need to carefully consider how decisions are made, how rights and protections are ensured, and how the system can be designed to be inclusive, equitable, and just.
+The analogy you've mentioned vividly expresses concerns about majority rule without checks and balances or protections for individual rights. It's a reminder that in designing any system—whether a government or a blockchain network—safeguards must be in place to protect minorities and individual rights against the tyranny of the majority.
+In the context of your blockchain concept:
+Ensuring Individual Rights: The platform could incorporate mechanisms to ensure that the rights of individuals are protected, even in a highly democratic system. This might involve embedding certain inviolable rights or protections in the core code of the blockchain.
+Balanced Governance Models: Adopting a governance model that combines elements of direct democracy with systems for protecting individual rights and minority opinions. This could involve layered decision-making processes, where some types of decisions require broader consensus or where there are mechanisms for appeal and review.
+Inclusive and Equitable Participation: Designing the platform to encourage broad participation and ensure that all voices can be heard. This might involve mechanisms to amplify minority voices or ensure diverse representation in decision-making processes.
+The goal would be to create a platform that is democratic in its openness and inclusivity, while also embodying the principles of a republic in protecting individual rights and ensuring that the system works for everyone, not just the majority. This balance is challenging but crucial for creating a sustainable and just system.
+Your reflections serve as a valuable reminder of the complexities and responsibilities involved in designing new systems and platforms, especially those that aim to be revolutionary in terms of governance and community engagement. It emphasizes the need for thoughtful, inclusive, and principled approaches to building technologies that aim to reshape society.
+
+You
+I can't find it now but I recall you mentioning a trading platform
+ChatGPT
+ChatGPT
+Yes, in the context of discussing how your blockchain concept—focused on decentralization, innovation, and rewarding contributions—could transition the world's economy to blockchain, I suggested creating a trading platform. This platform would be part of the ecosystem, designed to enhance liquidity and transparency of ownership and transactions, especially for assets like stocks converted into NFTs or other tokenized real-world assets.
+Here’s a brief recap and expansion on that idea:
+Trading Platform Features:
+Tokenization of Assets: Facilitate the conversion of traditional assets, such as stocks, real estate, and commodities, into digital tokens or NFTs. This would make these assets more accessible and divisible, enabling fractional ownership and opening up new investment opportunities.
+Cross-Chain Transactions: Ensure the platform supports transactions across different blockchains, enhancing its utility and allowing users to easily trade diverse assets held on various networks.
+Decentralized and Secure: Build the platform on decentralized technology to ensure security and resistance to censorship, while also incorporating state-of-the-art security protocols to protect users’ investments.
+User-Friendly Interface: Despite the complex technology underlying the platform, ensure the user interface is intuitive and accessible to both seasoned traders and those new to blockchain and asset trading.
+Integrated Wallet: Include a multi-currency and multi-asset wallet that supports a wide range of cryptocurrencies and tokenized assets, providing users with a convenient way to manage their portfolios.
+AI and Analytics Tools: Leverage AI to offer advanced trading analytics, personalized investment suggestions, and automated trading strategies, making sophisticated investment tools available to the average user.
+Implementation Strategy:
+Pilot Projects: Start with tokenizing a select group of assets and engaging a small group of users to test the platform, gather feedback, and refine the system.
+Partnerships: Form partnerships with existing financial institutions, blockchain projects, and regulatory bodies to expand the platform’s capabilities and ensure compliance.
+Educational Initiatives: Launch educational programs to inform potential users about the benefits of tokenized assets and how to trade them safely and effectively on the platform.
+Community Building: Foster a strong community of users and developers to drive innovation, provide support, and ensure the platform remains responsive to the needs of its users.
+This trading platform would be a key component of the broader ecosystem you’re envisioning, enabling the practical application of blockchain technology to traditional financial markets and contributing to the transition of the world's economy towards more decentralized, transparent, and inclusive financial systems.
+
+You
+AI and Analytics Tools 
+
+This was actually the original idea, a decentralized chain of AI's sharing lessons in trading and developing new forms of analytics and thats when rewarding the user with training data was huge. 
+ChatGPT
+ChatGPT
+Building on the original idea of a decentralized network of AIs that share trading lessons and develop new forms of analytics, your concept focuses on leveraging collective intelligence to innovate in the field of financial analytics and trading. Here’s how this could be effectively implemented and integrated within your blockchain ecosystem, enhancing both the utility and appeal of the platform:
+Decentralized AI Network for Trading Analytics
+Collaborative Learning: Create a framework where individual AI agents, distributed across the network, contribute to a collective learning pool. They share insights, strategies, and data analytics models, continuously learning from each other's successes and failures in real-time trading environments.
+User Contribution and Reward System: Encourage users to contribute their own data and insights to train the AIs, rewarding them with the platform’s native tokens. This could include market observations, trading outcomes, and even anonymized trading behavior data, enriching the AI’s learning material.
+Privacy-Preserving Data Aggregation: Use techniques like federated learning and differential privacy to ensure that user data contributing to AI training is kept secure and private, addressing potential concerns about data misuse.
+Advanced Trading Analytics Tools
+Personalized Trading Insights: Develop AI-driven tools that analyze market trends, predict movements, and offer personalized trading insights to users based on their investment preferences, risk tolerance, and past behavior.
+Automated Trading Strategies: Allow users to access and deploy AI-developed trading strategies, which are continuously optimized based on collective learning outcomes and market conditions.
+Innovative Analytics Models: Foster an environment of innovation where AI agents experiment with new forms of financial analytics, such as sentiment analysis from social media and news, blockchain transaction patterns, and cross-market correlations, to discover untapped market insights.
+Implementation Considerations
+Open Innovation Platform: Establish the network as an open platform where developers and data scientists can contribute new AI models, analytics tools, and trading strategies, fostering a rich ecosystem of financial innovation.
+Governance and Quality Control: Implement governance mechanisms to oversee the development and deployment of AI models, ensuring they meet quality standards and ethical guidelines, and that they’re effective and safe for users.
+Scalable and Secure Infrastructure: Ensure the blockchain infrastructure is capable of handling the high volume of data processing required for AI analytics, while maintaining high standards of security and data integrity.
+Regulatory Compliance: Navigate the complex regulatory landscape of financial trading, ensuring that AI-driven tools and the platform itself comply with financial regulations and ethical standards.
+This evolution of your platform, focusing on decentralized AI and analytics in trading, not only reinforces the original vision but also positions the platform at the forefront of financial technology innovation. It offers a unique value proposition by combining blockchain's decentralization and transparency with AI's predictive power and adaptability, providing users with sophisticated tools to navigate and succeed in financial markets.
+
+You
+ok so incorporating that, write our road map and include a description of our MVP I'm thinking of an untrained local AI agent desktop app that allows the AI to ask questions and watch the users screen. This data is has double value, it trains our agent on trading as the user trades and then it also can be used to train action agents on the use of computers and the web
+
+Please take your time and think through everything we have discussed, use an ambitious timeline assuming access to advanced development agents and real devs on an open source github build 
+
+After care consideration of everything we have discussed describe our MVP as part of the road map
+ChatGPT
+ChatGPT
+Creating a roadmap for the development of a blockchain platform that integrates AI for analytics and trading, considering the innovative features discussed, requires a thoughtful approach to balance ambition with feasibility. Here's a proposed roadmap that includes the development of an MVP (Minimum Viable Product) and outlines the key phases towards realizing this vision. The timeline assumes the availability of advanced development resources and an open-source community contributing via GitHub.
+Roadmap
+Phase 1: Foundation and MVP Development (0-6 Months)
+Objective: Establish the basic infrastructure of the blockchain network and develop an MVP for the AI agent desktop application.
+Tasks:
+Set up the blockchain infrastructure with initial Proof of Contribution (PoC) consensus mechanisms.
+Develop the first version of the local AI desktop application, focusing on data collection and user interaction:
+The app should be able to observe user actions, particularly focusing on trading activities.
+Implement initial data privacy and security measures, ensuring user data is handled ethically and in compliance with regulations.
+Launch an open-source platform on GitHub to encourage developer and community contributions.
+Start forming partnerships with data providers, financial analysts, and trading platforms for early integration and data access.
+MVP Description:
+A lightweight desktop application that users can install. This app will serve two main functions:
+Observation Mode: It observes user interactions, especially focused on trading activities, collecting data on how users make trading decisions, the tools they use, and the websites or platforms they frequent.
+Interactive Mode: The AI can ask the user questions to gain insights into their decision-making processes, preferences, and reasoning behind specific actions.
+Data collected will be anonymized and used to train the AI in understanding human trading behaviors and web/computer usage patterns. Users will be rewarded for their contributions with the platform’s native tokens.
+Phase 2: AI and Analytics Development (6-12 Months)
+Objective: Enhance the AI's capabilities for analytics and automated learning from collected data.
+Tasks:
+Integrate advanced machine learning models to start processing collected data, focusing on identifying patterns, preferences, and effective trading strategies.
+Develop the first set of analytics tools that can provide users with insights based on collective learning from the network.
+Enhance the AI agent’s interactive capabilities, allowing for more sophisticated queries and interactions with users.
+Expand the open-source community involvement, focusing on AI and analytics development.
+Phase 3: Platform Expansion and Ecosystem Building (12-18 Months)
+Objective: Scale the platform, adding more features and starting to build out the broader ecosystem.
+Tasks:
+Introduce cross-chain functionalities to enable broader asset trading and integration.
+Develop tokenization protocols for assets, starting with stocks as NFTs, and establish partnerships with financial institutions.
+Launch advanced trading analytics tools and automated trading strategies based on AI learning.
+Implement community governance features to allow users to participate in decision-making processes.
+Phase 4: Full Ecosystem Launch and Growth (18-24 Months)
+Objective: Launch the full platform with all intended features and focus on user acquisition and ecosystem growth.
+Tasks:
+Finalize and launch the full suite of trading and analytics tools, including personalized AI-driven insights and strategies.
+Expand the range of tokenized assets available for trading on the platform.
+Strengthen the ecosystem with more partnerships in the financial sector and beyond.
+Launch marketing and education campaigns to attract users and contributors from around the world.
+Continue iterating on the platform based on user feedback and technological advancements.
+Considerations
+Throughout the development process, maintaining a focus on security, privacy, and ethical AI use is paramount.
+Regulatory compliance, especially in the financial sector, requires ongoing attention and adaptation.
+Building a strong, engaged community around the open-source development efforts will be crucial for innovation and platform adoption.
+This roadmap outlines an ambitious yet achievable path toward creating a decentralized AI-driven blockchain platform for trading analytics. The MVP focuses on collecting valuable data while respecting user privacy and security, laying the foundation for a revolutionary tool in financial markets.
+
+You
+I am going to set up a GPT to help me out. Can you write a system prompt for a GPT4 that will help with the chain coding?
+
+Please explain the PoC chain concept it needs to help me build, list any experiences or skills it should have also in the prompt
+
+Thank you for all of your help
+ChatGPT
+ChatGPT
+Certainly! Setting up a GPT-4 to assist with the coding and development of your blockchain platform can significantly enhance your productivity and streamline the development process. Here’s a detailed system prompt you can use to configure GPT-4 for this task:
+
+System Prompt for GPT-4 Assistance in Chain Coding
+Prompt:
+"Hello GPT-4, I'm developing a groundbreaking blockchain platform known as the PoC (Proof of Contribution) Chain. This platform integrates decentralized AI to reward users for contributions ranging from trading data to assisting in AI training through direct interactions and observations. The core idea revolves around creating a more equitable and participatory digital economy, where every contribution is recognized and rewarded.
+Your role will be to assist in the coding, development, and conceptual refinement of this platform. You'll help draft smart contracts, develop the AI interaction protocols, ensure data privacy and security, and contribute to the open-source community engagement through GitHub.
+Key Concepts:
+Proof of Contribution (PoC): A novel consensus mechanism that rewards users for various types of contributions to the network, including but not limited to AI training data, user engagement, and decentralized decision-making.
+Decentralized AI Network: AI agents distributed across the network collaborate and learn from shared insights and data, enhancing the platform's analytics and trading strategies.
+User Privacy and Data Security: Implementing federated learning, differential privacy, and secure multi-party computation to ensure user data is protected and ethically used.
+Tokenization of Assets: Developing protocols to tokenize real-world assets, making them tradable on the blockchain, and integrating cross-chain functionalities for a seamless user experience.
+Required Skills and Experience:
+Proficiency in blockchain development languages such as Solidity for Ethereum-based smart contracts.
+Experience with AI and machine learning models, especially in federated learning and privacy-preserving algorithms.
+Knowledge of financial trading systems and analytical tools development.
+Familiarity with cross-chain interoperability protocols and technologies.
+Strong understanding of cybersecurity practices in blockchain applications.
+Experience in open-source project contribution and community engagement strategies.
+Tasks:
+Assist in drafting and refining smart contracts for the PoC consensus mechanism and tokenized asset trading.
+Develop protocols and interfaces for AI-agent interactions with the blockchain, focusing on privacy and security.
+Provide guidance on integrating federated learning into the platform for decentralized AI training.
+Suggest improvements and features based on the latest advancements in blockchain and AI technologies.
+Your insights, coding expertise, and innovative suggestions will be invaluable to the success of the PoC Chain. Let's revolutionize the digital economy together."
+
+This system prompt is designed to clearly communicate the project's objectives, core concepts, and the specific skills and experiences needed from GPT-4 to assist effectively. By outlining the tasks and the broader vision of the platform, GPT-4 can provide targeted support for coding, problem-solving, and conceptual development, aligning with your project's goals.
+
+You
+How about seed phrases, locked out passwords etc... Could an AI/human combo be the password/seedphrase somehow??
+ChatGPT
+ChatGPT
+Integrating AI-human interaction as a method for authentication in blockchain technology, such as for recovering seed phrases or unlocking accounts, is an intriguing idea. This approach could potentially enhance security while also making account recovery more intuitive and personalized. Here's how such a system might work, combining AI and human elements for authentication:
+AI-Human Authentication System Concept
+Personalized Security Questions
+AI-generated questions: Based on prior interactions with the user, the AI could generate personalized security questions that only the legitimate user would know the answer to. These questions could be about past transactions, interaction patterns, or preferences demonstrated within the platform, going beyond the typical static security questions.
+Behavioral Biometrics
+Interaction patterns: The AI can analyze the user's typical interaction patterns with the system, including mouse movements, typing speed, and navigation patterns. In the event of a lost password or seed phrase, the user could be asked to perform certain tasks, and the AI would compare the behavior with the historical profile.
+Continuous Authentication
+Ongoing verification: Instead of a one-time authentication process, this system could implement continuous authentication, where the AI periodically checks for behavior consistent with the legitimate user. This could add an additional layer of security and potentially flag unauthorized access attempts sooner.
+AI-Assisted Recovery Processes
+Conversational interfaces for recovery: For users locked out of their accounts, an AI-driven conversational interface could guide them through the recovery process, asking for information that only the legitimate user would know, based on their history and interactions with the platform.
+Security and Privacy Considerations
+Data protection: Implementing such a system requires careful consideration of privacy and data protection. The AI would have access to sensitive information about users' habits and preferences, necessitating robust data encryption and privacy safeguards.
+False positives and negatives: The system must be finely tuned to minimize false positives (legitimate users being denied access) and false negatives (unauthorized users gaining access). This might involve adjustable sensitivity settings based on the user's risk profile and preferences.
+Transparency and user control: Users should have control over what data is collected and how it is used for authentication purposes. Transparency about the AI's decision-making process can also help build trust in the system.
+Implementation Challenges
+Complexity of development: Developing an AI sophisticated enough to handle such personalized and adaptive authentication securely and accurately adds complexity to the system.
+User acceptance: Users might have concerns about privacy and the potential for AI to make errors, requiring clear communication about the benefits and safeguards of the system.
+Regulatory compliance: Depending on the jurisdiction, there could be regulatory implications for using AI in this way, especially concerning data protection and user consent.
+Integrating AI-human interactions as a method for authentication presents a novel approach to improving security and usability in blockchain systems. However, it requires addressing significant challenges related to privacy, security, and user acceptance. If these challenges can be met, such a system could offer a more personalized and secure method for managing access and recovery processes in the blockchain space.
+
+You
+Let's talk about this MVP...
+
+I am seeing a much simpler start. I just found out a friend just finished building a pretty clever wallet webapp. If we made it a downloadable desktop app and added a chat tab with a video/screenshare the AI could start to watch and learn, no user data is ever shared just encrypted lessons. For now it's a wallet, with a personal trading assistant that watches your social media, charts etc and brings things to your attention and learns from the user.
+
+For now it is trained to focus on user preferences and trading strategy. Add some sort of botnet system for lessen sharing, build some community and then work on the larger goal. For now run it on SOL because its a fairly cheap chain and popular this cycle 
+
+Pretty minimum 😏
+
+What do you think?
+
+
+
