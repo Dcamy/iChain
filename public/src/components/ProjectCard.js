@@ -1,3 +1,5 @@
+// Easter Egg for Ethan... iChain loves you
+
 /*Given your plans and the discussions we've had so far, here’s how you might refine the ProjectCard component to include the additional functionality discussed, such as dynamic glow effects based on project status and user involvement, as well as potential backside content with GPT-generated updates:
 
 Enhancing ProjectCard for Dynamic Glow and Flip Effect
